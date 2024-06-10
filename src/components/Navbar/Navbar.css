@@ -1,8 +1,9 @@
 nav{
   width: 100%;
-  background: #333;
+  /* background: #333; */
   color: #ffff;
   padding: 4px 0;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
