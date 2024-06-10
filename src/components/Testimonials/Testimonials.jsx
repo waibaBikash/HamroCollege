@@ -10,7 +10,60 @@ import user_4 from '../../assets/user-4.png';
 const Testimonials = () => {
   return (
     <div className='testimonials'>
-      <img src="" alt="" className='next-btn' />
+      <img src={next_icon} alt="" className='next-btn' />
+      <img src={back_icon} alt="" className='back-btn' />
+       <div className="slider">
+         <ul>
+           <li>
+             <div className="slide">
+               <div className="user-info">
+                 <img src={user_1} alt="" />
+                  <div>
+                     <h3>Hazzale Gardner</h3>
+                     <span>Edusity, USA</span>
+                  </div>
+               </div>
+                 <p>Choosing to pursue my degree at Edusity was one of the best decision I'have ever made. The supportive community, state-of-the-art facilities,and commiment to academic exellenece have truly exceeded my expectations.</p>
+             </div>
+           </li>
+           <li>
+             <div className="slide">
+               <div className="user-info">
+                 <img src={user_2} alt="" />
+                  <div>
+                     <h3>William Jackson</h3>
+                     <span>Edusity, USA</span>
+                  </div>
+               </div>
+                 <p>Choosing to pursue my degree at Edusity was one of the best decision I'have ever made. The supportive community, state-of-the-art facilities,and commiment to academic exellenece have truly exceeded my expectations.</p>
+             </div>
+           </li>
+           <li>
+             <div className="slide">
+               <div className="user-info">
+                 <img src={user_3} alt="" />
+                  <div>
+                     <h3>Kyra Spade</h3>
+                     <span>Edusity, USA</span>
+                  </div>
+               </div>
+                 <p>Choosing to pursue my degree at Edusity was one of the best decision I'have ever made. The supportive community, state-of-the-art facilities,and commiment to academic exellenece have truly exceeded my expectations.</p>
+             </div>
+           </li>
+           <li>
+             <div className="slide">
+               <div className="user-info">
+                 <img src={user_4} alt="" />
+                  <div>
+                     <h3>Alex Doe</h3>
+                     <span>Edusity, USA</span>
+                  </div>
+               </div>
+                 <p>Choosing to pursue my degree at Edusity was one of the best decision I'have ever made. The supportive community, state-of-the-art facilities,and commiment to academic exellenece have truly exceeded my expectations.</p>
+             </div>
+           </li>
+         </ul>
+       </div>
     </div>
   )
 }
