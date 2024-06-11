@@ -8,6 +8,7 @@ import Campus from './components/Campus/Campus';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
          <Contact/>
          <Footer />
       </div>
+       <VideoPlayer/>
     </div>
   )
 }
