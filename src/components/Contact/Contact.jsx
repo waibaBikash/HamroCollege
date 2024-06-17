@@ -32,7 +32,6 @@ const Contact = () => {
         setResult(data.message);
       }
     };
-  
   return (
     <div className='contact'>
       <div className="contact-col">
@@ -59,5 +58,4 @@ const Contact = () => {
     </div>
   )
 }
-
 export default Contact;
