@@ -16,5 +16,4 @@ const VideoPlayer = ({playState, setPlayState}) => {
     </div>
   )
 }
-
 export default VideoPlayer;
