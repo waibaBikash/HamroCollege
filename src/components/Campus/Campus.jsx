@@ -19,5 +19,4 @@ const Campus = () => {
     </div>
   )
 }
-
 export default Campus
