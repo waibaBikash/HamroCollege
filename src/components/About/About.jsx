@@ -23,5 +23,4 @@ const About = ({setPlayState}) => {
     </div>
   )
 }
-
 export default About;
