@@ -11,9 +11,12 @@ const About = ({setPlayState}) => {
           <img 
           src={about_img} alt="" className='about-img' 
           />
-          <img src={play_icon} alt="" className='play-icon' onClick={()=>{
+          <img 
+           src={play_icon} alt="" 
+           className='play-icon' onClick={()=>{
             setPlayState(true)
-          }} />
+           }}
+           />
        </div>
        <div className="about-right">
          <h3>ABOUT UNIVERSITY</h3>
