@@ -25,9 +25,10 @@ const About = ({setPlayState}) => {
            our programs prepares aspiring educators to make a meaningful inpact in 
            classrooms, schools, and cooouninities.
            </p>
-         <p>Whether you aspire to become a teacher, administrator,
-           couselor, or educator, or educational leader, our divese
-            rage of programs offers the perfect pathway to achieve your
+            <p>
+             Whether you aspire to become a teacher, administrator,
+             couselor, or educator, or educational leader, our divese
+             rage of programs offers the perfect pathway to achieve your
              goals and unlock your full potential in shaping the future of education.
              </p>
        </div>
