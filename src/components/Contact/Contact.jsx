@@ -50,7 +50,9 @@ const Contact = () => {
            <li> 
             <img src={phone_icon} alt="" />+61222233333
             </li>
-           <li> <img src={location_icon} alt="" />Kensington Road, Summer Hill, 2130, NSW, Australia</li>
+           <li> 
+            <img src={location_icon} alt="" />Kensington Road, Summer Hill, 2130, NSW, Australia
+            </li>
          </ul>
       </div>
       <div className="contact-col">
