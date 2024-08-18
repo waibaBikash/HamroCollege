@@ -36,7 +36,11 @@ const Contact = () => {
     <div className='contact'>
       <div className="contact-col">
          <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-         <p>feel free to reach out through from or find our contact information felow. Your feedback, questions, and suggestions are important to us as we strive to provide exceptioal service to our university community.</p>
+          <p>
+            feel free to reach out through from or find our contact information 
+            felow. Your feedback, questions, and suggestions are important to us
+            as we strive to provide exceptioal service to our university community.
+           </p>
          <ul>
            <li> <img src={mail_icon} alt="" />Contact@hamrocollege.au</li>
            <li> <img src={phone_icon} alt="" />+61222233333</li>
