@@ -70,7 +70,12 @@ const Contact = () => {
            placeholder='Enter your mobile number' 
            required />
            <label>Write your message here</label>
-           <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
+           <textarea 
+            name="message" 
+            rows="6" 
+            placeholder='Enter your message' 
+            required>
+           </textarea>
            <button className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
          </form>
          <span>{result}</span>
