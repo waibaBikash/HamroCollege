@@ -35,7 +35,9 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className="contact-col">
-         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
+          <h3>
+           Send us a message <img src={msg_icon} alt="" />
+          </h3>
           <p>
             feel free to reach out through from or find our contact information 
             felow. Your feedback, questions, and suggestions are important to us
