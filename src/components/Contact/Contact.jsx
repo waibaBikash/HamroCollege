@@ -47,7 +47,9 @@ const Contact = () => {
            <li> 
             <img src={mail_icon} alt="" />Contact@hamrocollege.au
             </li>
-           <li> <img src={phone_icon} alt="" />+61222233333</li>
+           <li> 
+            <img src={phone_icon} alt="" />+61222233333
+            </li>
            <li> <img src={location_icon} alt="" />Kensington Road, Summer Hill, 2130, NSW, Australia</li>
          </ul>
       </div>
