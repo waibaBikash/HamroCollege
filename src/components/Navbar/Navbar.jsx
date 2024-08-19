@@ -28,7 +28,9 @@ const Navbar = () => {
          <li> 
            <Link to='program' smooth={true} offset={-260} duration={500}>Program</Link>
           </li>
-         <li> <Link to='about' smooth={true} offset={-250} duration={500}>About us</Link></li>
+         <li> 
+           <Link to='about' smooth={true} offset={-250} duration={500}>About us</Link>
+          </li>
          <li> <Link to='campus' smooth={true} offset={-260} duration={500}>Campus</Link></li>
          <li> <Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimoinals</Link></li>
          <li><Link to='contact' smooth={true} offset={-260} duration={500}  className='btn'>Contact us</Link> </li>
