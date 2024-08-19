@@ -11,7 +11,8 @@ const VideoPlayer = ({playState, setPlayState}) => {
     }
   }
   return (
-    <div className={`video-player ${playState ? '' : 'hide'}`} ref={player} onClick={colsePlayer}>
+    <div className={`video-player ${playState ? '' : 'hide'}`} 
+    ref={player} onClick={colsePlayer}>
        <video src={video} autoPlay muted controls></video>
     </div>
   )
